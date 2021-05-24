@@ -193,7 +193,7 @@ class ShowUserScore():
         cur=self.con.cursor()
         cur.execute(query)
         for row in  cur:  
-            print('Player Name:',row[0])
-            print('Player Score:',row[1])
+            print(color.BOLD + color.YELLOW+'Player Name:'+color.END,row[0])
+            print(color.BOLD + color.GREEN+'Player Score:'+color.END,row[1])
             print()
             print()

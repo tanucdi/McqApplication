@@ -117,7 +117,9 @@ def Usermain():
             break
 
 def allplaymain():
+    print()
     print(color.BOLD + color.RED+'-------------Players and Their Scores-----'+color.END)
+    print()
     pq=ShowUserScore()
 
 def checkAdmin():
